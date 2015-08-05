@@ -1,5 +1,5 @@
 # Dynamic_jar
-android 插件化动态加载jar
+# android 插件化动态加载jar
 有时候会看到一些应用对应的SDcard里的文件夹里有 ***.jar 等文件，现在明白这些文件大概是用来做应用内自动更新用的。
 
 打比方说，类似eclipse 可以通过预留接口，安装各种插件一样。
@@ -85,6 +85,7 @@ public class Variable {
     public static String testValue = "123456";
 
 }
+
 4.MainActivity
 
 package com.example.test;
@@ -147,6 +148,8 @@ public class MainActivity extends Activity {
         return lib;
     }
 }
+
+
 5.打包并转化成dex
 
 选中Dynamic 类，右键 --> Export --> Jar file  
