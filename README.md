@@ -74,6 +74,8 @@ public class Dynamic implements IDynamic{
     }
 
 }
+
+
 3.Variable
 
 package com.example.test;
